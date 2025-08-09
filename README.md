@@ -2,10 +2,6 @@
 
 Welcome to my personal portfolio website! This project showcases who I am, my skills, my resume, projects, and certificates — all in one clean and interactive webpage.
 
-## 🔗 Live Demo
-
-🚀 [Click here to view the live site](https://leafy-sunburst-681870.netlify.app/) 
-
 ---
 
 ## 📁 Project Structure
