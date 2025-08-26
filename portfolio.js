@@ -348,3 +348,4 @@ const throttledScroll = throttle(() => {
 
 
 window.addEventListener('scroll', throttledScroll);
+
