@@ -1,6 +1,6 @@
 // Initialize EmailJS
    (function () {
-    emailjs.init("dv1r8d7sfoKeNYlQA"); // Replace with your EmailJS public key
+    emailjs.init(""); // Replace with your EmailJS public key
   })();
 
   // Wait for DOM to load
@@ -11,7 +11,7 @@
     form.addEventListener("submit", function (e) {
       e.preventDefault();
 
-      emailjs.sendForm("service_5c6bszl", "template_usuozmm", this)
+      emailjs.sendForm("", "", this)
         .then(() => {
           messageDiv.innerHTML = "✅ Message sent successfully!";
           messageDiv.style.color = "green";
@@ -345,5 +345,6 @@ function throttle(func, wait) {
 const throttledScroll = throttle(() => {
     // Scroll-dependent functions here
 }, 16); // ~60fps
+
 
 window.addEventListener('scroll', throttledScroll);
